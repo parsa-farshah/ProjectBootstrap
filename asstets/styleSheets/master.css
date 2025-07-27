@@ -158,12 +158,12 @@ main {
           > h6 {
             color: #ff6123;
             font-family: anton;
-            font-size: 54px;
+            font-size: 44px;
             margin-bottom: 0;
           }
           > span {
             color: #ff6123;
-            font-size: 54px;
+            font-size: 44px;
             font-family: anton;
             font-style: italic;
           }
@@ -198,17 +198,18 @@ main {
         position: relative;
         > h6 {
           color: #191b1d;
-          font-size: 74px;
+          font-size: 64px;
           font-family: anton;
           margin-bottom: 0;
         }
         > h5 {
           color: #191b1d;
           font-style: italic;
-          font-size: 74px;
+          font-size: 64px;
           font-family: anton;
           position: absolute;
           top: 70%;
+          margin-right: 15px;
         }
       }
       &:nth-of-type(2) {
