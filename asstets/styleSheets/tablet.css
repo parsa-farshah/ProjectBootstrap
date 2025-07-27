@@ -1,0 +1,57 @@
+@media screen and (min-width: 768px) {
+  header {
+    /*----------------- navbar ------------------*/
+    nav {
+      > a {
+        font-family: "acumin";
+        font-weight: light !important;
+        font-size: 16px;
+      }
+    }
+    > section {
+      position: relative;
+      margin-top: 60px;
+      > div {
+        > h1 {
+          width: 80% !important;
+          position: absolute;
+          transform: translate(-50%, 0%);
+          /* font-size: 90px !important; */
+
+          &:nth-of-type(1) {
+            top: 50px;
+            left: 50%;
+            font-size: clamp(90px, 10vw, 150px);
+          }
+          &:nth-of-type(2) {
+            top: 90px;
+            left: 50%;
+            font-size: clamp(70px, 10vw, 150px);
+          }
+          &:nth-of-type(3) {
+            top: 210px;
+            left: 50%;
+            font-size: clamp(90px, 10vw, 150px);
+          }
+        }
+        > div {
+          &:nth-of-type(1) {
+            width: 190px;
+            height: 430px;
+            background-size: cover;
+            background-position: 50% 50%;
+          }
+          &:nth-of-type(2) {
+            display: flex;
+            align-self: flex-end;
+            width: 190px;
+            height: 158px;
+            background-position: 50% 50%;
+            position: relative;
+            z-index: 2;
+          }
+        }
+      }
+    }
+  }
+}
