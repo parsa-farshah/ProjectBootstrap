@@ -68,5 +68,26 @@
         }
       }
     }
+    #content {
+      > div {
+        &:nth-of-type(1) {
+          > h6 {
+            font-size: 110px !important;
+            > span {
+              &:nth-of-type(1) {
+                position: absolute;
+                top: 0;
+                left: 440px;
+              }
+              &:nth-of-type(2) {
+                position: absolute;
+                top: 90px;
+                left: 0;
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }
