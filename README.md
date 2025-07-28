@@ -58,13 +58,13 @@ This project was built as a practice project inspired by [https://forma-fluid-de
 <img src="/asstets/images/cover.png" alt="Project Demo" width="100%">
 
 ### 💻 Desktop Views
-<img src="screenshots/desktop1.jpg" alt="Desktop Screenshot 1" width="100%">
-<img src="screenshots/desktop2.jpg" alt="Desktop Screenshot 2" width="100%">
-<img src="screenshots/desktop3.jpg" alt="Desktop Screenshot 3" width="100%">
+<img src="/asstets/images/1.png" alt="Desktop Screenshot 1" width="100%">
+<img src="/asstets/images/2.png" alt="Desktop Screenshot 2" width="100%">
+<img src="/asstets/images/3.png" alt="Desktop Screenshot 3" width="100%">
 
 ### 📱 Tablet View
-<img src="screenshots/tablet.jpg" alt="Tablet Screenshot" width="100%">
+<img src="/asstets/images/4.png" alt="Tablet Screenshot" width="100%">
 
 ### 📲 Mobile Views
-<img src="screenshots/mobile1.jpg" alt="Mobile Screenshot 1" width="100%">
-<img src="screenshots/mobile2.jpg" alt="Mobile Screenshot 2" width="100%">
+<img src="/asstets/images/5.png" alt="Mobile Screenshot 1" width="100%">
+<img src="/asstets/images/6.png" alt="Mobile Screenshot 2" width="100%">
