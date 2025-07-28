@@ -55,7 +55,7 @@ This project was built as a practice project inspired by [https://forma-fluid-de
 ## 📸 Screenshots
 
 ### 🖼 Demo Overview
-<img src="asstets/images/cover.png" alt="Project Demo" width="100%">
+<img src="/asstets/images/cover.png" alt="Project Demo" width="100%">
 
 ### 💻 Desktop Views
 <img src="screenshots/desktop1.jpg" alt="Desktop Screenshot 1" width="100%">
