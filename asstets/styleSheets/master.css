@@ -44,6 +44,11 @@ header {
           font-size: 35px;
           font-family: acumin;
           color: #ff6123;
+          cursor: pointer;
+          transition: 0.4s ease;
+          &:hover {
+            transform: perspective(800px) rotate3d(3, 3, 1, 180deg);
+          }
         }
       }
       > div {
@@ -116,6 +121,46 @@ header {
       &:hover {
         background-color: #ff6123;
         color: #191b1d;
+      }
+    }
+  }
+  /* menu open in mobile */
+  #menu {
+    height: 100vh;
+    background-color: #ff6123;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    transition: 1s ease;
+    > i {
+      position: absolute;
+      right: 20px;
+      top: 5px;
+      font-size: 24px;
+      cursor: pointer;
+      transition: 0.4s ease;
+      &:hover {
+        transform: rotate(90deg);
+      }
+    }
+    > ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      > li {
+        height: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &:hover {
+          background-color: #e0551e;
+        }
+        > a {
+          text-decoration: none;
+          color: #191b1d;
+          font-family: anton;
+        }
       }
     }
   }
@@ -715,6 +760,9 @@ footer {
       }
     }
   }
+}
+.open {
+  right: 0% !important;
 }
 @keyframes animeSlide {
   0% {
